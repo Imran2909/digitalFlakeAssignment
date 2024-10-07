@@ -1,0 +1,91 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.but {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+
+}
+
+.editHeader {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.editHeader button {
+    width: 44px;
+    height: 44px;
+    font-size: 44px;
+}
+
+.editHeader h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.editForm {
+    display: flex;
+    margin: auto;
+    width: 96%;
+    justify-content: space-evenly;
+}
+
+.editForm input {
+    width: 80%;
+    margin-right: 5%;
+}
+
+.editActions {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.editActions button {
+    width: 120px;
+    background-color: #662671;
+    color: white;
+}
+
+.formGroup {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin-left: -1%;
+}
+.formGroup input {
+    width: 100%;
+}
+
+.formGroup label {
+    /* color: red; */
+}
